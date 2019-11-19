@@ -5,12 +5,12 @@
 
 Path | Method | Allowed Contents | Description
 ------------- | :-------------: | :-------------: | :-------------:
-**/ctrl/v2/admin/services/service/item/register** | `POST` | `application/json` | 
+`/ctrl/v2/admin/services/service/item/register` | `POST` | `application/json` | 
   
 Parameter | Use | Description | Example
 :-------------: | :-------------: | :------------- | :------------- 
-**token** | *required* | Service Administration Token | `token=392m2U937x5Up6VUhVG79gw8ynz7337w`
-**id** | *required* | Id of Service | `id=my-service-id`
+`token` | *required* | Service Administration Token | `token=392m2U937x5Up6VUhVG79gw8ynz7337w`
+`id` | *required* | Id of Service | `id=my-service-id`
 
 #### Example Call
 ```http
