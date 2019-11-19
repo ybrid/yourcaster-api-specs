@@ -1,4 +1,5 @@
 ##### [**Ybrid API v2 Specifications**](../../) / [**Backend**](../) / [**Media Asset Management**](./) / Register Media Assets
+---
 
 # Register Media Assets
 
@@ -101,5 +102,5 @@ SOURCE-URL       = *TEXT
 ```
 
 
-
+---
 ##### [**Ybrid API v2 Specifications**](../../) / [**Backend**](../) / [**Media Asset Management**](./) / Register Media Assets
