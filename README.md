@@ -1,5 +1,5 @@
 # api-specs
-This repository contains specifications of the ybrid API. This includes the sections player and backend.
+This repository contains specifications of the Ybrid® API. This includes the sections player and backend.
 
 ## Versions
 
