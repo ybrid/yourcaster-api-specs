@@ -9,4 +9,4 @@
 
 ---
 ##### [**Ybrid API v2 Specifications**](../) / Player
-##### Copyright (c) 2019 Ybrid - a product of nacamar GmbH, Germany. See [GNU LESSER GENERAL PUBLIC LICENSE Version 2.1](/LICENSE) for details.
+##### api-specs, © by nacamar GmbH, Germany, 2019. See [GNU LESSER GENERAL PUBLIC LICENSE Version 2.1](/LICENSE) for details. Ybrid® is a registered trademark of nacamar GmbH, Germany 
