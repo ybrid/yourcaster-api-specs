@@ -1,5 +1,5 @@
 ##### [**Ybrid API v2 Specifications**](../) / Player
-------
+---
 
 # Player
 
@@ -7,5 +7,5 @@
 + [**Content Control**](content-control)
 
 
-------
+---
 ##### [**Ybrid API v2 Specifications**](../) / Player
