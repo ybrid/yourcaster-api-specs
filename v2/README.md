@@ -1,40 +1,19 @@
+##### Ybrid API v2 Specifications
+---
+
 # Ybrid API v2 Specification
 
 ## Introduction
 
-## General
+## Overview
 
-### API v2 Responses
-
-#### Response Header
-
-#### Response Object 
-
-## Player
-
-### Session Management
-
-### Content Control
-
-#### Swapping
-
-#### Timeshift
-
-## Backend
-
-### Authentication
-
-### Overview
-
-Category | Function | Short Description
--------- | ---- | :----------------
-[**Live Content Meta Data Injection**](#live-content-meta-data-injection) | | 
-[**Media Asset Management**](#media-asset-management) | [**Register Media Asset**](#register-media-asset) | 
-
-### Live Content Meta Data Injection
-
-### Media Asset Management
-
-#### Register Media Asset
+Section | Description
+:------ | :----------
+[**Basic Concepts**](basic-concepts) | 
+[**Backend Control**](backend) | 
+[**Player Control**](player) | 
 
 
+---
+##### Ybrid API v2 Specifications
+##### api-specs, © by nacamar GmbH, Germany, 2019. See [GNU LESSER GENERAL PUBLIC LICENSE Version 2.1](/LICENSE) for details. Ybrid® is a registered trademark of nacamar GmbH, Germany 

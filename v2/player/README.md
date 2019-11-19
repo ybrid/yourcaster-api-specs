@@ -3,8 +3,12 @@
 
 # Player
 
-+ [**Session Management**](session-management)
-+ [**Content Control**](content-control)
+## Overview
+
+Section | Description
+:------ | :----------
+[**Session Management**](session-management) |
+[**Content Control**](content-control) |
 
 
 ---
