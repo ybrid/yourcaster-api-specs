@@ -7,7 +7,7 @@
 
 Function | Short Description
 :------- | :----------------
-[**Register Media Asset**](#register-media-asset) | 
+[**Register Media Asset**](register-media-assets.md) | 
 
 
 ---
