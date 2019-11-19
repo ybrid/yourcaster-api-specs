@@ -3,9 +3,9 @@
 
 # Registration
 
-Call | Method | Description
+Path | Method | Allowed Contents | Description
 ------------- | :-------------: | :-------------:
-**/ctrl/v2/admin/services/service/item/register** | POST | 
+**/ctrl/v2/admin/services/service/item/register** | POST | `application/json` | 
   
 Parameter | Use | Description | Example
 :-------------: | :-------------: | :------------- | :------------- 
