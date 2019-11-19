@@ -5,9 +5,9 @@
 
 ## Overview
 
-Function | Call | Short Description
+Function | Path | Short Description
 :------- | :--- | :----------------
-[**Registration**](registration.md) | */ctrl/v2/admin/services/service/item/register* | Registration of local or remote assets for later injection.  
+[**Registration**](registration.md) | `/ctrl/v2/admin/services/service/item/register` | Registration of local or remote assets for later injection.  
 
 
 ---
