@@ -41,7 +41,7 @@ curl -v "https://cast.ybrid.io/ctrl/v2/playout swap/item?session-id=41ea9e95-ce2
 ## Swapping Current Item for Given Asset
 
 It is possible to swap current content for any remote on-demand content as long it is accessible via HTTP. If 
-the content allready has been cached by the system, swapping will work iimediately. For pre-registration of 
+the content allready has been cached by the system, swapping will work immediately. For pre-registration of 
 such content, please use [**Registration**](/v2/backend/media-asset-management/registration.md).
 
 Path | Method | Allowed Contents | Description
