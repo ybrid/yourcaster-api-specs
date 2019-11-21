@@ -8,7 +8,7 @@
 Section | Description
 :------ | :----------
 [**Authentication**](authentication.md) | 
-[**Media Asset Management Control**](media-asset-management) | 
+[**Media Asset Management**](media-asset-management) | 
 [**Meta Data Injection**](meta-data-injection) | 
 
 
