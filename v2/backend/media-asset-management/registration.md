@@ -105,7 +105,12 @@ MEDIA-URL        = *TEXT
 ### Example
 ```json
 {
-
+    "__responseHeader": {
+        "responseVersion":"v2",
+        "statusCode":200,
+        "success":true,
+        "supportedVersions":["v1","v2"]
+    }
 }
 ```
 
