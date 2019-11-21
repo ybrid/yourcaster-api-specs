@@ -1,7 +1,7 @@
-##### Ybrid® API v2 Specifications
+##### Ybrid<sup>®</sup> API v2 Specifications
 ---
 
-# Ybrid® API v2 Specification
+# Ybrid<sup>®</sup> API v2 Specification
 
 ## Introduction
 
@@ -15,5 +15,5 @@ Section | Description
 
 
 ---
-##### Ybrid® API v2 Specifications
-###### api-specs, © by nacamar GmbH, Germany, 2019. See [GNU LESSER GENERAL PUBLIC LICENSE Version 2.1](/LICENSE) for details. Ybrid® is a registered trademark of nacamar GmbH, Germany 
+##### Ybrid<sup>®</sup> API v2 Specifications
+###### api-specs, © by nacamar GmbH, Germany, 2019. See [GNU LESSER GENERAL PUBLIC LICENSE Version 2.1](/LICENSE) for details. Ybrid<sup>®</sup> is a registered trademark of nacamar GmbH, Germany 
