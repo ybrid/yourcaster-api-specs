@@ -12,9 +12,17 @@ Parameter | Use | Description | Example
 `token` | *required* | Service Administration Token | `token=392m2U937x5Up6VUhVG79gw8ynz7337w`
 `id` | *required* | Id of Service | `id=my-service-id`
 
-#### Example Call
+#### Example Call URL
 ```http
 https://cast.ybrid.io/ctrl/v2/admin/services/service/item/register?token=392m2U937x5Up6VUhVG79gw8ynz7337w&id=my-service-id
+```
+
+#### Example CURL Call with JSON Body
+```shell
+curl -v \
+     -d '{"remoteAssets":[{"srcURL":"https://my-storage.superhoster.com/assets/michael_jackson-thriller.mp3","item":{"artist":"Michael Jackson", "title":"Thriller"}}]}' \
+     -H "Content-Type: application/json" \
+     -X POST "https://cast.ybrid.io/ctrl/v2/admin/services/service/item/register?token=392m2U937x5Up6VUhVG79gw8ynz7337w&id=my-service-id"
 ```
 
 ## Request Body
@@ -44,7 +52,7 @@ https://cast.ybrid.io/ctrl/v2/admin/services/service/item/register?token=392m2U9
   ]
 }
 ```
-```ini
+```AsciiDoc
 ID               = *TEXT
 ARTIST           = *TEXT
 TITLE            = *TEXT
