@@ -1,4 +1,4 @@
-##### [**Ybrid® API v2 Specifications**](../../) / [**Player**](../) / [**Content Control**](./) / Swapping
+##### [**Ybrid<sup>®</sup> API v2 Specifications**](../../) / [**Player**](../) / [**Content Control**](./) / Swapping
 ---
 
 # Swapping
@@ -46,5 +46,5 @@ Parameter | Use | Description | Example
 ```
 
 ---
-##### [**Ybrid® API v2 Specifications**](../../) / [**Player**](../) / [**Content Control**](./) / Swapping
-###### api-specs, © by nacamar GmbH, Germany, 2019. See [GNU LESSER GENERAL PUBLIC LICENSE Version 2.1](/LICENSE) for details. Ybrid® is a registered trademark of nacamar GmbH, Germany 
+##### [**Ybrid<sup>®</sup> API v2 Specifications**](../../) / [**Player**](../) / [**Content Control**](./) / Swapping
+###### api-specs, © by nacamar GmbH, Germany, 2019. See [GNU LESSER GENERAL PUBLIC LICENSE Version 2.1](/LICENSE) for details. Ybrid<sup>®</sup> is a registered trademark of nacamar GmbH, Germany 
