@@ -15,12 +15,12 @@ Parameter | Use | Description | Example
 
 #### Example Call URL
 ```text
-https://cast.ybrid.io/ctrl/v2/playout swap/item?session-id=41ea9e95-ce20-4da8-85e1-4f9da688af3c
+https://cast.ybrid.io/ctrl/v2/playout/swap/item?session-id=41ea9e95-ce20-4da8-85e1-4f9da688af3c
 ```
 
 #### Example cURL Call
 ```bash
-curl -v "https://cast.ybrid.io/ctrl/v2/playout swap/item?session-id=41ea9e95-ce20-4da8-85e1-4f9da688af3c"
+curl -v "https://cast.ybrid.io/ctrl/v2/playout/swap/item?session-id=41ea9e95-ce20-4da8-85e1-4f9da688af3c"
 ```
 
 ### Response
