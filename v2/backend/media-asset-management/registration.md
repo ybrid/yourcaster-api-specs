@@ -20,7 +20,7 @@ https://cast.ybrid.io/ctrl/v2/admin/services/service/item/register?token=392m2U9
 #### Example cURL Call with JSON Body
 ```bash
 curl -v \
-     -d '{"remoteAssets":[{"srcURL":"https://my-storage.superhoster.com/assets/michael_jackson-thriller.mp3","item":{"artist":"Michael Jackson", "title":"Thriller"}}]}' \
+     -d '{"assetsToRegister":[{"mediaURL":"https://my-storage.superhoster.com/assets/michael_jackson-thriller.mp3","item":{"artist":"Michael Jackson", "title":"Thriller"}}]}' \
      -H "Content-Type: application/json" \
      -X POST "https://cast.ybrid.io/ctrl/v2/admin/services/service/item/register?token=392m2U937x5Up6VUhVG79gw8ynz7337w&id=my-service-id"
 ```
@@ -40,13 +40,13 @@ curl -v \
         "type": TYPE,
         "url": URL
       },
-      "srcURL": SOURCE-URL
+      "mediaURL": SOURCE-URL
     },
     {
       "item": {
         ...
       },
-      "srcURL": URL
+      "mediaURL": URL
     },
     ...
   ]
@@ -60,7 +60,7 @@ DESCRIPTION      = *TEXT
 DURATION-MILLIS  = *TEXT
 TYPE             = *TEXT
 URL              = *TEXT
-SOURCE-URL       = *TEXT
+MEDIA-URL        = *TEXT
 ```
 
 ### Example
@@ -77,7 +77,7 @@ SOURCE-URL       = *TEXT
         "id": "mt-12345",
         "type": "MUSIC"
       },
-      "srcURL": "https://my-storage.superhoster.com/assets/michael_jackson-thriller.mp3"
+      "mediaURL": "https://my-storage.superhoster.com/assets/michael_jackson-thriller.mp3"
     },
     {
       "item": {
@@ -89,7 +89,7 @@ SOURCE-URL       = *TEXT
         "id": "mt-12378",
         "type": "MUSIC"
       },
-      "srcURL": "https://my-storage.superhoster.com/assets/madonna-like_a_prayer.mp3"
+      "mediaURL": "https://my-storage.superhoster.com/assets/madonna-like_a_prayer.mp3"
     }
   ]
 }
