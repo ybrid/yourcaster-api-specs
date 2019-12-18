@@ -7,7 +7,8 @@
 
 Section | Description
 :------ | :----------
-[**Swapping**](swapping.md) | 
+[**Injection**](injection.md) | Injection of on-demand assets into the current stream.
+[**Swapping**](swapping.md) | Swap currently played items for predefined alternatives.
 [**Timeshift**](timeshift) | 
 
 
