@@ -53,13 +53,16 @@ MEDIA_URL   = URL
 #### Specification
 ```json
 {
-
+   "injectionWasSuccessful": INJECTION_RESULT
 }
+```
+```ini
+INJECTION_RESULT   = BOOL; TRUE if injection was successful.
 ```
 #### Example
 ```json
 {
-
+   "injectionWasSuccessful":true
 }
 ```
 
