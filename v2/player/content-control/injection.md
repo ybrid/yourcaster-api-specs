@@ -14,7 +14,7 @@ Path | Method | Allowed Contents | Description
 `/ctrl/v2/playout/inject/item` | `POST` | `application/json` | 
   
 Parameter | Use | Description | Example
-:-------------: | :-------------: | :------------- | :------------- 
+:---: | :---: | --- | :--- 
 `session-id` | *required* | Id of Session | `session-id=41ea9e95-ce20-4da8-85e1-4f9da688af3c`
 `mode` | *required* | Injection Mode. One of `( inflate | overwrite | replaceEnd2end | replaceFade2end | replaceFull )`. Defaults to `overwrite`. | `mode=replaceEnd2end`
 
