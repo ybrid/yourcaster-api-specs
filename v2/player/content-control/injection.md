@@ -1,7 +1,7 @@
 ##### [**Ybrid<sup>®</sup> API v2 Specifications**](../../) / [**Player**](../) / [**Content Control**](./) / Injection
 ---
 
-# Injection of Given Remote Asset
+# Injection of Remote On-Demand Asset
 
 It is possible to inject any remote on-demand content as long it is accessible via HTTP. If 
 the content allready has been cached by the system, injection will work immediately. For pre-registration of 
@@ -66,4 +66,4 @@ INJECTION_RESULT   = BOOL; TRUE if injection was successful.
 
 ---
 ##### [**Ybrid<sup>®</sup> API v2 Specifications**](../../) / [**Player**](../) / [**Content Control**](./) / Injection
-###### api-specs, © by nacamar GmbH, Germany, 2019. See [GNU LESSER GENERAL PUBLIC LICENSE Version 2.1](/LICENSE) for details. Ybrid<sup>®</sup> is a registered trademark of nacamar GmbH, Germany 
+###### api-specs, © by nacamar GmbH, Germany, 2019-2020. See [GNU LESSER GENERAL PUBLIC LICENSE Version 2.1](/LICENSE) for details. Ybrid<sup>®</sup> is a registered trademark of nacamar GmbH, Germany 
