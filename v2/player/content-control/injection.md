@@ -1,7 +1,7 @@
 ##### [**Ybrid<sup>®</sup> API v2 Specifications**](../../) / [**Player**](../) / [**Content Control**](./) / Injection
 ---
 
-# Injection of Given Remote Asset
+# Injection of Remote On-Demand Asset
 
 It is possible to inject any remote on-demand content as long it is accessible via HTTP. If 
 the content allready has been cached by the system, injection will work immediately. For pre-registration of 
