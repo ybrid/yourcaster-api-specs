@@ -16,7 +16,7 @@ Path | Method | Allowed Contents | Description
 Parameter | Use | Description | Example
 :---: | :---: | --- | :--- 
 `session-id` | *required* | Id of Session | `session-id=41ea9e95-ce20-4da8-85e1-4f9da688af3c`
-`mode` | *required* | Injection Mode. One of `( inflate \| overwrite \| replaceEnd2end \| replaceFade2end \| replaceFull )`. Defaults to `overwrite`. | `mode=replaceEnd2end`
+`mode` | *required* | Injection Mode. One of `( inflate \| overwrite \| replaceEnd2end \| replaceFade2end \| replaceFull )`. Defaults to `overwrite`.<br/><dl><dt>`inflate`</dt><dd>Injects the asset by *inflating* the stream. That means, that the current stream content gets buffered and played after the injected content.</dd><dt>`overwrite`</dt><dd></dd><dt>`replaceEnd2end`</dt><dd></dd><dt>`replaceFade2end`</dt><dd></dd><dt>`replaceFull`</dt><dd></dd></dl> | `mode=replaceEnd2end`
 
 #### Example Call URL
 ```text
