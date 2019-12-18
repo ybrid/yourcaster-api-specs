@@ -3,7 +3,7 @@
 
 # Injection
 
-## Injection of Given Asset
+## Injection of Given Remote Asset
 
 It is possible to inject any remote on-demand content as long it is accessible via HTTP. If 
 the content allready has been cached by the system, injection will work immediately. For pre-registration of 
