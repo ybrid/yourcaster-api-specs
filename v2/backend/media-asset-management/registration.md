@@ -10,11 +10,11 @@ Path | Method | Allowed Contents | Description
 Parameter | Use | Description | Example
 :-------------: | :-------------: | :------------- | :------------- 
 `token` | *required* | Service Administration Token | `token=392m2U937x5Up6VUhVG79gw8ynz7337w`
-`id` | *required* | Id of Service | `id=my-service-id`
+`service-id` | *required* | Id of Service | `service-id=my-service-id`
 
 ### Example Call URL
 ```text
-https://cast.ybrid.io/ctrl/v2/admin/services/service/item/register?token=392m2U937x5Up6VUhVG79gw8ynz7337w&id=my-service-id
+https://cast.ybrid.io/ctrl/v2/admin/services/service/item/register?token=392m2U937x5Up6VUhVG79gw8ynz7337w&service-id=my-service-id
 ```
 
 ### Example cURL Call with JSON Body
@@ -22,7 +22,7 @@ https://cast.ybrid.io/ctrl/v2/admin/services/service/item/register?token=392m2U9
 curl -v \
      -d '{"assetsToRegister":[{"mediaURL":"https://my-storage.superhoster.com/assets/michael_jackson-thriller.mp3","item":{"artist":"Michael Jackson", "title":"Thriller"}}]}' \
      -H "Content-Type: application/json" \
-     -X POST "https://cast.ybrid.io/ctrl/v2/admin/services/service/item/register?token=392m2U937x5Up6VUhVG79gw8ynz7337w&id=my-service-id"
+     -X POST "https://cast.ybrid.io/ctrl/v2/admin/services/service/item/register?token=392m2U937x5Up6VUhVG79gw8ynz7337w&service-id=my-service-id"
 ```
 
 ## Request Body
