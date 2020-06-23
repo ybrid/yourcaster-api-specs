@@ -32,15 +32,20 @@ curl -v \
   "assetsToRegister": [
     {
       "item": {
-        "id": ID,
-        "artist": ARTIST,
-        "title": TITLE,
-        "description": DESCRIPTION,
-        "durationMillis": DURATION-MILLIS,
-        "type": TYPE,
-        "url": URL
+        "id": <ID>,
+        "artist": <ARTIST>,
+        "title": <TITLE>,
+        "description": <DESCRIPTION>,
+        "durationMillis": <DURATION-MILLIS>,
+        "cuePoints": {
+          <CUE_POINT_TYPE>: <CUE_POINT_POSITION_IN_MILLISECONDS>,
+          ...
+          <CUE_POINT_TYPE>: <CUE_POINT_POSITION_IN_MILLISECONDS>
+        },
+        "type": <TYPE>,
+        "url": <URL>
       },
-      "mediaURL": SOURCE-URL
+      "mediaURL": <SOURCE-URL>
     },
     {
       "item": {
@@ -53,14 +58,16 @@ curl -v \
 }
 ```
 ```text
-ID               = *TEXT
-ARTIST           = *TEXT
-TITLE            = *TEXT
-DESCRIPTION      = *TEXT
-DURATION-MILLIS  = *TEXT
-TYPE             = *TEXT
-URL              = *TEXT
-MEDIA-URL        = *TEXT
+ID                                 = *TEXT
+ARTIST                             = *TEXT
+TITLE                              = *TEXT
+DESCRIPTION                        = *TEXT
+DURATION-MILLIS                    = *TEXT 
+TYPE                               = *TEXT
+CUE_POINT_TYPE                     = *TEXT, value of ( FADE_IN_1 | FADE_IN_2 | VOCALS_START | FADE_OUT_1 | FADE_OUT_2 )
+CUE_POINT_POSITION_IN_MILLISECONDS = *DIGIT, position of cuepoint in milliseconds from the beginning of the media
+URL                                = *TEXT
+MEDIA-URL                          = *TEXT
 ```
 
 ### Example
