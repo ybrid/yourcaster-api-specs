@@ -5,7 +5,7 @@
 
 Path | Method | Allowed Contents | Description
 ------------- | :-------------: | :-------------: | :-------------:
-`/ctrl/v2/session/create` | `GET` |  | 
+`<ALIAS>/ctrl/v2/session/create` | `GET` |  | 
   
 Parameter | Use | Description | Example
 :-------------: | :-------------: | :------------- | :------------- 
