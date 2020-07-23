@@ -3,6 +3,11 @@
 
 # Session Management
 
+## Overview
+
+Function | Path | Short Description
+:------- | :--- | :----------------
+[**Creation**](create.md) | `/ctrl/v2/session/create` | Creating a session.  
 
 ---
 ##### [**Ybrid<sup>®</sup> API v2 Specifications**](../../) / [**Player**](../) / Session Management
