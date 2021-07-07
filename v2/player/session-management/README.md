@@ -1,14 +1,16 @@
-##### [**Ybrid<sup>®</sup> API v2 Specifications**](../../) / [**Player**](../) / Session Management
----
+# README
 
-# Session Management
+#### [**Ybrid® API v2 Specifications**](../../) / [**Player**](../) / Session Management
 
-## Overview
+## Session Management
 
-Function | Path | Short Description
-:------- | :--- | :----------------
-[**Creation**](create.md) | `/ctrl/v2/session/create` | Creating a session.  
+### Overview
 
----
-##### [**Ybrid<sup>®</sup> API v2 Specifications**](../../) / [**Player**](../) / Session Management
-###### api-specs, © by nacamar GmbH, Germany, 2019-2020. See [GNU LESSER GENERAL PUBLIC LICENSE Version 2.1](/LICENSE) for details. Ybrid<sup>®</sup> is a registered trademark of nacamar GmbH, Germany 
+| Function | Path | Short Description |
+| :--- | :--- | :--- |
+| [**Creation**](create.md) | `/ctrl/v2/session/create` | Creating a session. |
+
+#### [**Ybrid® API v2 Specifications**](../../) / [**Player**](../) / Session Management
+
+**api-specs, © by nacamar GmbH, Germany, 2019-2020. See GNU LESSER GENERAL PUBLIC LICENSE Version 2.1 for details. Ybrid® is a registered trademark of nacamar GmbH, Germany**
+

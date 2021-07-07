@@ -1,36 +1,43 @@
-##### [**Ybrid<sup>®</sup> API v2 Specifications**](../../) / [**Player**](../) / [**Session Management**](./) / Creation
----
+# create
 
-# Creation
+**Ybrid® API v2 Specifications / Player / Session Management / Creation**
 
-Path | Method | Allowed Contents | Description
-------------- | :-------------: | :-------------: | :-------------:
-`<ALIAS>/ctrl/v2/session/create` | `GET` |  | 
-  
-Parameter | Use | Description | Example
-:-------------: | :-------------: | :------------- | :------------- 
-`service-id` | *required* | Id of Service | `service-id=my-service-id`
+## Creation
 
-### Example Call URL
+| Path | Method | Allowed Contents | Description |
+| :--- | :---: | :---: | :---: |
+| `<ALIAS>/ctrl/v2/session/create` | `GET` |  |  |
+
+| Parameter | Use | Description | Example |
+| :---: | :---: | :--- | :--- |
+| `service-id` | _required_ | Id of Service | `service-id=my-service-id` |
+
+#### Example Call URL
+
 ```text
 https://cast.ybrid.io/alias/ctrl/v2/session/create?service-id=my-service-id
 ```
 
-### Example cURL Call with JSON Body
+#### Example cURL Call with JSON Body
+
 ```bash
 curl -v \
      -X GET "https://cast.ybrid.io/alias/ctrl/v2/session/create?service-id=my-service-id"
 ```
 
-## Response
-### Specification
-```json
+### Response
+
+#### Specification
+
+```javascript
 {
 
 }
 ```
-### Example
-```json
+
+#### Example
+
+```javascript
 {
     "__responseHeader": {
         "responseVersion":"v2",
@@ -41,7 +48,7 @@ curl -v \
 }
 ```
 
+**Ybrid® API v2 Specifications / Player / Session Management / Creation**
 
----
-##### [**Ybrid<sup>®</sup> API v2 Specifications**](../../) / [**Player**](../) / [**Session Management**](./) / Creation
-###### api-specs, © by nacamar GmbH, Germany, 2019-2020. See [GNU LESSER GENERAL PUBLIC LICENSE Version 2.1](/LICENSE) for details. Ybrid<sup>®</sup> is a registered trademark of nacamar GmbH, Germany 
+**api-specs, © by nacamar GmbH, Germany, 2019-2020. See GNU LESSER GENERAL PUBLIC LICENSE Version 2.1 for details. Ybrid® is a registered trademark of nacamar GmbH, Germany**
+

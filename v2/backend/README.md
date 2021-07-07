@@ -1,17 +1,18 @@
-##### [**Ybrid<sup>®</sup> API v2 Specifications**](../) / Backend
----
+# README
 
-# Backend
+#### [**Ybrid® API v2 Specifications**](../) / Backend
 
-## Overview
+## Backend
 
-Section | Description
-:------ | :----------
-[**Authentication**](authentication.md) | 
-[**Media Asset Management**](media-asset-management) | 
-[**Meta Data Injection**](meta-data-injection) | 
+### Overview
 
+| Section | Description |
+| :--- | :--- |
+| [**Authentication**](authentication.md) |  |
+| [**Media Asset Management**](media-asset-management/) |  |
+| [**Meta Data Injection**](meta-data-injection.md) |  |
 
----
-##### [**Ybrid<sup>®</sup> API v2 Specifications**](../) / Backend
-###### api-specs, © by nacamar GmbH, Germany, 2019-2020. See [GNU LESSER GENERAL PUBLIC LICENSE Version 2.1](/LICENSE) for details. Ybrid<sup>®</sup> is a registered trademark of nacamar GmbH, Germany 
+#### [**Ybrid® API v2 Specifications**](../) / Backend
+
+**api-specs, © by nacamar GmbH, Germany, 2019-2020. See GNU LESSER GENERAL PUBLIC LICENSE Version 2.1 for details. Ybrid® is a registered trademark of nacamar GmbH, Germany**
+

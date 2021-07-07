@@ -1,16 +1,17 @@
-##### [**Ybrid<sup>®</sup> API v2 Specifications**](../) / Player
----
+# README
 
-# Player
+#### [**Ybrid® API v2 Specifications**](../) / Player
 
-## Overview
+## Player
 
-Section | Description
-:------ | :----------
-[**Session Management**](session-management) |
-[**Content Control**](content-control) |
+### Overview
 
+| Section | Description |
+| :--- | :--- |
+| [**Session Management**](session-management/) |  |
+| [**Content Control**](content-control/) |  |
 
----
-##### [**Ybrid<sup>®</sup> API v2 Specifications**](../) / Player
-###### api-specs, © by nacamar GmbH, Germany, 2019-2020. See [GNU LESSER GENERAL PUBLIC LICENSE Version 2.1](/LICENSE) for details. Ybrid<sup>®</sup> is a registered trademark of nacamar GmbH, Germany 
+#### [**Ybrid® API v2 Specifications**](../) / Player
+
+**api-specs, © by nacamar GmbH, Germany, 2019-2020. See GNU LESSER GENERAL PUBLIC LICENSE Version 2.1 for details. Ybrid® is a registered trademark of nacamar GmbH, Germany**
+

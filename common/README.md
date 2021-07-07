@@ -1,17 +1,18 @@
-##### Ybrid<sup>®</sup> API Common Specifications
----
+# README
 
-# Ybrid<sup>®</sup> API Common Specification
+#### Ybrid® API Common Specifications
 
-## Introduction
+## Ybrid® API Common Specification
 
-## Overview
+### Introduction
 
-Section | Description
-:------ | :----------
-[**Media Type**](MediaType.md) |
+### Overview
 
+| Section | Description |
+| :--- | :--- |
+| [**Media Type**](mediatype.md) |  |
 
----
-##### Ybrid<sup>®</sup> API Common Specifications
-###### api-specs, © by nacamar GmbH, Germany, 2019-2021. See [GNU LESSER GENERAL PUBLIC LICENSE Version 2.1](/LICENSE) for details. Ybrid<sup>®</sup> is a registered trademark of nacamar GmbH, Germany 
+#### Ybrid® API Common Specifications
+
+**api-specs, © by nacamar GmbH, Germany, 2019-2021. See GNU LESSER GENERAL PUBLIC LICENSE Version 2.1 for details. Ybrid® is a registered trademark of nacamar GmbH, Germany**
+

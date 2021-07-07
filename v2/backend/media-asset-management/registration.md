@@ -1,23 +1,26 @@
-##### [**Ybrid<sup>®</sup> API v2 Specifications**](../../) / [**Backend**](../) / [**Media Asset Management**](./) / Registration
----
+# registration
 
-# Registration
+**Ybrid® API v2 Specifications / Backend / Media Asset Management / Registration**
 
-Path | Method | Allowed Contents | Description
-------------- | :-------------: | :-------------: | :-------------:
-`/ctrl/v2/admin/services/service/item/register` | `POST` | `application/json` | 
-  
-Parameter | Use | Description | Example
-:-------------: | :-------------: | :------------- | :------------- 
-`token` | *required* | Service Administration Token | `token=392m2U937x5Up6VUhVG79gw8ynz7337w`
-`service-id` | *required* | Id of Service | `service-id=my-service-id`
+## Registration
 
-### Example Call URL
+| Path | Method | Allowed Contents | Description |
+| :--- | :---: | :---: | :---: |
+| `/ctrl/v2/admin/services/service/item/register` | `POST` | `application/json` |  |
+
+| Parameter | Use | Description | Example |
+| :---: | :---: | :--- | :--- |
+| `token` | _required_ | Service Administration Token | `token=392m2U937x5Up6VUhVG79gw8ynz7337w` |
+| `service-id` | _required_ | Id of Service | `service-id=my-service-id` |
+
+#### Example Call URL
+
 ```text
 https://cast.ybrid.io/ctrl/v2/admin/services/service/item/register?token=392m2U937x5Up6VUhVG79gw8ynz7337w&service-id=my-service-id
 ```
 
-### Example cURL Call with JSON Body
+#### Example cURL Call with JSON Body
+
 ```bash
 curl -v \
      -d '{"assetsToRegister":[{"mediaURL":"https://my-storage.superhoster.com/assets/michael_jackson-thriller.mp3","item":{"artist":"Michael Jackson", "title":"Thriller"}}]}' \
@@ -25,9 +28,11 @@ curl -v \
      -X POST "https://cast.ybrid.io/ctrl/v2/admin/services/service/item/register?token=392m2U937x5Up6VUhVG79gw8ynz7337w&service-id=my-service-id"
 ```
 
-## Request Body
-### Specification
-```json
+### Request Body
+
+#### Specification
+
+```javascript
 {
   "assetsToRegister": [
     {
@@ -57,6 +62,7 @@ curl -v \
   ]
 }
 ```
+
 ```text
 ID                                 = *TEXT
 ARTIST                             = *TEXT
@@ -70,8 +76,9 @@ URL                                = *TEXT
 MEDIA-URL                          = *TEXT
 ```
 
-### Example
-```json
+#### Example
+
+```javascript
 {
   "assetsToRegister": [
     {
@@ -102,15 +109,19 @@ MEDIA-URL                          = *TEXT
 }
 ```
 
-## Response
-### Specification
-```json
+### Response
+
+#### Specification
+
+```javascript
 {
 
 }
 ```
-### Example
-```json
+
+#### Example
+
+```javascript
 {
     "__responseHeader": {
         "responseVersion":"v2",
@@ -121,7 +132,7 @@ MEDIA-URL                          = *TEXT
 }
 ```
 
+**Ybrid® API v2 Specifications / Backend / Media Asset Management / Registration**
 
----
-##### [**Ybrid<sup>®</sup> API v2 Specifications**](../../) / [**Backend**](../) / [**Media Asset Management**](./) / Registration
-###### api-specs, © by nacamar GmbH, Germany, 2019-2020. See [GNU LESSER GENERAL PUBLIC LICENSE Version 2.1](/LICENSE) for details. Ybrid<sup>®</sup> is a registered trademark of nacamar GmbH, Germany 
+**api-specs, © by nacamar GmbH, Germany, 2019-2020. See GNU LESSER GENERAL PUBLIC LICENSE Version 2.1 for details. Ybrid® is a registered trademark of nacamar GmbH, Germany**
+
