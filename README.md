@@ -1,4 +1,4 @@
-# api-specs
+# yourcaster-api-specs
 This repository contains specifications of the Ybrid<sup>®</sup> API. This includes the sections player and backend.
 
 ## Versions
