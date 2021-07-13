@@ -1,4 +1,4 @@
-# Injection
+# injection
 
 **Ybrid® API v2 Specifications / Player / Content Control / Injection**
 

@@ -1,8 +1,4 @@
-# registration
-
-**Ybrid® API v2 Specifications / Backend / Media Asset Management / Registration**
-
-## Registration
+# Registration
 
 | Path | Method | Allowed Contents | Description |
 | :--- | :---: | :---: | :---: |
@@ -13,13 +9,13 @@
 | `token` | _required_ | Service Administration Token | `token=392m2U937x5Up6VUhVG79gw8ynz7337w` |
 | `service-id` | _required_ | Id of Service | `service-id=my-service-id` |
 
-#### Example Call URL
+### Example Call URL
 
 ```text
 https://cast.ybrid.io/ctrl/v2/admin/services/service/item/register?token=392m2U937x5Up6VUhVG79gw8ynz7337w&service-id=my-service-id
 ```
 
-#### Example cURL Call with JSON Body
+### Example cURL Call with JSON Body
 
 ```bash
 curl -v \
@@ -28,9 +24,9 @@ curl -v \
      -X POST "https://cast.ybrid.io/ctrl/v2/admin/services/service/item/register?token=392m2U937x5Up6VUhVG79gw8ynz7337w&service-id=my-service-id"
 ```
 
-### Request Body
+## Request Body
 
-#### Specification
+### Specification
 
 ```javascript
 {
@@ -109,9 +105,9 @@ MEDIA-URL                          = *TEXT
 }
 ```
 
-### Response
+## Response
 
-#### Specification
+### Specification
 
 ```javascript
 {
@@ -132,7 +128,5 @@ MEDIA-URL                          = *TEXT
 }
 ```
 
-**Ybrid® API v2 Specifications / Backend / Media Asset Management / Registration**
-
-**api-specs, © by nacamar GmbH, Germany, 2019-2020. See GNU LESSER GENERAL PUBLIC LICENSE Version 2.1 for details. Ybrid® is a registered trademark of nacamar GmbH, Germany**
+\*\*\*\*
 

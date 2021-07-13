@@ -1,4 +1,8 @@
-# Create
+# create
+
+**Ybrid® API v2 Specifications / Player / Session Management / Creation**
+
+## Creation
 
 | Path | Method | Allowed Contents | Description |
 | :--- | :---: | :---: | :---: |
@@ -43,4 +47,8 @@ curl -v \
     }
 }
 ```
+
+**Ybrid® API v2 Specifications / Player / Session Management / Creation**
+
+**api-specs, © by nacamar GmbH, Germany, 2019-2020. See GNU LESSER GENERAL PUBLIC LICENSE Version 2.1 for details. Ybrid® is a registered trademark of nacamar GmbH, Germany**
 
