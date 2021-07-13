@@ -1,4 +1,4 @@
-# Content Control
+# README
 
 #### [**Ybrid® API v2 Specifications**](../../) / [**Player**](../) / Content Control
 
