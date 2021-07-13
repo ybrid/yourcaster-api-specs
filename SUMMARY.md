@@ -6,6 +6,7 @@
   * [Backend](v2/backend/README.md)
     * [Media Asset Management](v2/backend/media-asset-management/README.md)
       * [Registration](v2/backend/media-asset-management/registration.md)
+      * [Registration](v2/backend/media-asset-management/registration-1.md)
     * [Meta-Data Injection](v2/backend/meta-data-injection.md)
     * [Authentication](v2/backend/authentication.md)
   * [Player](v2/player/README.md)
