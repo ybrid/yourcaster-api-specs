@@ -29,9 +29,9 @@ This media type does not define any required parameters.
 
 #### Versions
 
-At this point this specification only allows for `version` with a value of `v2`. Additional versions might be added later. A reader MUST NOT assume the response is a version `v2` response when no version is provided. The reader MUST preform proper auto-detection.
+At this point this specification only allows for `version` a value of `v2`. Additional versions might be added later. A reader MUST NOT assume the response is a version `v2` response when no version is provided. The reader MUST perform proper auto-detection.
 
-For version `v2` see: [API v2 Responses](../v2/basic-concepts.md).
+For version `v2` see [API v2 Responses](../v2/basic-concepts.md).
 
 **Ybrid® API Common Specifications / Media Type**
 

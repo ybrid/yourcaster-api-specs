@@ -1,4 +1,4 @@
-# authentication
+# Authentication
 
 ### [**Ybrid® API v2 Specifications**](../) / [**Backend**](./) / Authentication
 
