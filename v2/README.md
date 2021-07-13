@@ -1,8 +1,4 @@
-# README
-
-#### Ybrid® API v2 Specifications
-
-## Ybrid® API v2 Specification
+# API v2 Specification
 
 ### Introduction
 

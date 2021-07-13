@@ -1,7 +1,7 @@
 # Table of contents
 
-* [Ybrid® ACS Yourcaster API Specifications](README.md)
-* [README](v2/README.md)
+* [Ybrid® ACS Yourcaster API](README.md)
+* [API v2 Specification](v2/README.md)
   * [README](v2/basic-concepts.md)
   * [README](v2/backend/README.md)
     * [README](v2/backend/media-asset-management/README.md)
@@ -14,6 +14,6 @@
       * [swapping](v2/player/content-control/swapping.md)
     * [README](v2/player/session-management/README.md)
       * [create](v2/player/session-management/create.md)
-* [README](common/README.md)
+* [API Common](common/README.md)
   * [MediaType](common/mediatype.md)
 
