@@ -1,4 +1,4 @@
-# Ybrid® ACS Yourcaster API
+# Ybrid® ACS Yourcaster API Specifications
 
 This repository contains specifications of the Ybrid® API. This includes the sections player and backend.
 

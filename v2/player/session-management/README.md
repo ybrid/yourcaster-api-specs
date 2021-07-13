@@ -1,4 +1,4 @@
-# README
+# Session Management
 
 #### [**Ybrid® API v2 Specifications**](../../) / [**Player**](../) / Session Management
 
