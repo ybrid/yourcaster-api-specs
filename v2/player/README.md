@@ -1,4 +1,4 @@
-# README
+# Player
 
 #### [**Ybrid® API v2 Specifications**](../) / Player
 
