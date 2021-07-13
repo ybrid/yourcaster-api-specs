@@ -1,4 +1,4 @@
-# Basic Concepts
+# README
 
 **Ybrid® API v2 Specifications / Basic Concepts**
 
@@ -12,7 +12,7 @@ Implementations MUST NOT assume any order of the members within the response.
 
 #### Response Header
 
-The response header is a JSON object in the member `"__responseHeader"` of the v2 response.
+The response header is an JSON object in the member `"__responseHeader"` of the v2 response.
 
 **Header Members**
 
