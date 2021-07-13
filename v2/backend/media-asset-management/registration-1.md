@@ -20,6 +20,7 @@ Service administration token
 Whether the cake should be gluten-free or not.    
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
+Das ist ein Test
 {% endapi-method-request %}
 
 {% api-method-response %}
