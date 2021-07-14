@@ -17,20 +17,51 @@ Service administration token
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="service-id" type="boolean" required=true %}
-Whether the cake should be gluten-free or not.    
+Whether the cake should be gluten-free or not.
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
+
 Das ist ein Test
 {% endapi-method-request %}
 
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Cake successfully retrieved.
+Cake successfully retrieved.  
+{% endapi-method-response-example-description %}
+
+```text
+{    "name": "Cake's name",    "recipe": "Cake's recipe name",    "cake": "Binary cake"}
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=302 %}
+{% api-method-response-example-description %}
+
 {% endapi-method-response-example-description %}
 
 ```
-{    "name": "Cake's name",    "recipe": "Cake's recipe name",    "cake": "Binary cake"}
+
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=304 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=400 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
 ```
 {% endapi-method-response-example %}
 
@@ -39,7 +70,7 @@ Cake successfully retrieved.
 Could not find a cake matching this query.
 {% endapi-method-response-example-description %}
 
-```
+```text
 {    "message": "Ain't no cake like that."}
 ```
 {% endapi-method-response-example %}
@@ -47,6 +78,7 @@ Could not find a cake matching this query.
 {% endapi-method-spec %}
 {% endapi-method %}
 
+1. 2. 
 {% tabs %}
 {% tab title="First Tab" %}
 

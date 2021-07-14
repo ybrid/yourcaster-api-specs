@@ -18,4 +18,5 @@
 * [API Common](common/README.md)
   * [MediaType](common/mediatype.md)
 * [License](license.md)
+* [Need Help?](need-help.md)
 
